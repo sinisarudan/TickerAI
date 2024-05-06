@@ -1,0 +1,44 @@
+{
+	"version": "1.0.0",
+	"schemaVersion": "1.0.0",
+	"name": "i-tickerai",
+	"description": "TickerAI - isomorphic",
+	"variables": {
+		"COLABO_FOLDER": "{{{ENV:COLABO_FOLDER}}}"
+	},
+	"params": {
+		"dependencies": {
+			"provideDependencies": "link-path"
+		},
+		"environment": {
+			"os": "linux"
+		},
+		"sudo": {
+			"offer": false,
+			"install": false,
+			"build": false,
+			"symlinks": false
+		}
+	},
+	"puzzles": {
+        "dependencies": {
+            "@colabo-utils/i-config": {},
+			"@colabo-knalledge/i-core": {},
+			"@colabo-knalledge/i-schema": {},
+			"@colabo-knalledge/f-core": {},
+			"@colabo-knalledge/i-core-services": {},
+			"@colabo-headless/i-core-backend": {
+				"aliasAs": "@colabo-headless/i-core",
+				"expandSubPaths": true
+			},
+			"@colabo-rima/f-core": {},
+            "@colabo-utils/i-notifications": {}
+        },
+        "offers": {
+            "@tickerai-news/i-core": {
+                "npm": "@tickerai-news/i-core",
+                "path": "puzzles/news/core"
+            }
+        }
+    }
+}

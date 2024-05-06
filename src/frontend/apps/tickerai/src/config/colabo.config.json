@@ -1,0 +1,37 @@
+{
+	"version": "1.0.0",
+	"schemaVersion": "1.0.0",
+	"name": "@tickerai-apps/f-news",
+	"description": "An app demonstrating Vue headless colabo components",
+	"variables": {
+		"VUE_PACKAGES_FOLDER": "{{{ENV:VUE_PATH}}}/{{{ENV:VUE_2}}}",
+		"VUE_BUILD_PACKAGES_FOLDER": "{{{ENV:VUE_PATH}}}/{{{ENV:VUE_2}}}"
+	},
+	"params": {
+		"project": {
+			"tags": ["vue"]
+		},
+		"dependencies": {
+			"provideDependencies": "link-path"
+		},
+		"environment": {
+			"os": "linux"
+		},
+		"sudo": {
+			"offer": false,
+			"install": false,
+			"build": false,
+			"symlinks": false
+		}
+	},
+	"puzzles": {
+		"dependencies": {
+			"@colabo-rima/f-aaa": {
+				"expandSubPaths": true
+			},
+		},
+		"offers": {}
+	},
+	"symlinks": [{}]
+
+}

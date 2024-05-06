@@ -1,0 +1,49 @@
+{
+	"version": "1.0.0",
+	"schemaVersion": "1.0.0",
+	"name": "b-tickerai",
+	"description": "Tickerai.io - backend",
+	"variables": {
+		"COLABO_FOLDER": "{{{ENV:COLABO_FOLDER}}}"
+	},
+	"params": {
+		"project": {
+			"tags": ["node"]
+		},
+		"dependencies": {
+			"provideDependencies": "link-path"
+		},
+		"environment": {
+			"os": "linux"
+		},
+			"sudo": {
+			"offer": false,
+			"install": false,
+			"build": false,
+			"symlinks": false
+		}
+	},
+    "puzzles": {
+        "dependencies": {
+			"@colabo-knalledge/i-core": {},
+			"@colabo-utils/i-verify": {},
+			"@colabo-knalledge/i-schema": {},
+            "@colabo-knalledge/b-storage-mongo": {},
+			"@colabo-knalledge/b-core": {},
+            "@colabo-rima/b-aaa": {},
+            "@colabo-utils/i-config": {},
+            "@colabo-topichat/i-core": {},
+			"@colabo-utils/i-register": {},
+
+			"@tickerai-news/i-core": {},
+			"@tickerai-news/b-core": {}
+        },
+        "offers": {}
+    },
+	"symlinks": [
+		{
+			"from": "{{{COLABO_FOLDER}}}/src/frontend/web_components/colabo-rima/dist/colabo-rima",
+			"to": "public/web-components/colabo-rima"
+		}
+	]
+}

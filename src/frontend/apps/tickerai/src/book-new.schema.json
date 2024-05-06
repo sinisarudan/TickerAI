@@ -1,0 +1,42 @@
+{
+	"$id": "https://litterra.net/schemas/litterra.manuscript.schema.json",
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"type": "object",
+	"description": "JSON Schema for a manuscript entry",
+	"required": ["name", "author"],
+
+	"properties": {
+		"id": { "type": "string" },
+		"iAmId": { "type": "string" },
+		"name": { "type": "string" },
+		"created": { "type": "date" },
+		"author": {
+			"type": "array",
+			"minItems": 1,
+			"uniqueItems": true,
+			"items": {
+				"$ref": "https://litterra.net/schemas/litterra.author.schema.json"
+			},
+		},
+		"century": {
+			"type": "array",
+			"minItems": 1,
+			"uniqueItems": true,
+			"items": {
+				"type": "number"
+			}
+		},
+		"publisher": { "type": "string" },
+		"chapters": {
+			"type": "array",
+			"minItems": 1,
+			"uniqueItems": true,
+			"items": {
+				"$ref": "https://litterra.net/schemas/litterra.chapter.schema.json"
+			}
+		},
+		"humanID": {
+			"$ref": "https://colabo.space/schemas/colabo.knalledge.humanID.schema.json"
+		}
+	}
+}

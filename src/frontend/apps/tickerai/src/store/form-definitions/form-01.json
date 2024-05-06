@@ -1,0 +1,83 @@
+{
+  "prologue": { "title": "LitTerra - New Book" },
+  "epilogue": {
+    "title": "Thank you for providing new book",
+    "description": "by LitTerra"
+  },
+  "clusters": [
+    {
+      "id": "c7c3a72d4af53155a097a1146f1aaafc09dbb17b7becd358d1a5ca12c4e27be3",
+      "name": "Book Description",
+      "nodes": [
+        {
+          "id": "46bd24d5baa493dac6b51850aeaf2868494a9ac4d4521f666ece50316ecc2e5b",
+          "name": "Is it manuscript",
+          "slots": [
+            {
+              "id": "31894da8a0c7f2127340bfd0797327c05d66facd6c2e7d0b77a1cdd3652a8013",
+              "type": "boolean",
+              "kind": "static",
+              "reference": "checked",
+              "label": "Checkbox",
+              "labelForFalse": "Not checked",
+              "labelForTrue": "Checked"
+            }
+          ],
+          "block": { "type": "tripetto-block-checkbox", "version": "4.1.0" }
+        },
+        {
+          "id": "e2e98d64e784d1ae8306a4c2278689191752b1216489a93b2c08d58be2da895b",
+          "name": "Is it illuminated",
+          "slots": [
+            {
+              "id": "1cebaf6f19c2a9341188f1fa66a16cf841740c0552492ac3941af3b11c9f9591",
+              "type": "boolean",
+              "kind": "static",
+              "reference": "checked",
+              "label": "Checkbox",
+              "labelForFalse": "Not checked",
+              "labelForTrue": "Checked"
+            }
+          ],
+          "block": { "type": "tripetto-block-checkbox", "version": "4.1.0" }
+        },
+        {
+          "id": "0f0a09183ff411a2830445398a1e285a9f6d397a23d1ace08d132325fe034200",
+          "name": "Century",
+          "nameVisible": true,
+          "slots": [
+            {
+              "id": "de3b791b86b823565ad936ad5e451522eca906dc1abcc8a3871558dcd8a67439",
+              "type": "string",
+              "kind": "static",
+              "reference": "option",
+              "label": "Selected option"
+            }
+          ],
+          "block": {
+            "type": "tripetto-block-dropdown",
+            "version": "4.2.0",
+            "options": [
+              {
+                "id": "060aad1c32d19e106b19be12fde705157e4f8e599fff868d04d3f9342b836983",
+                "name": "5-th century",
+                "value": "5"
+              },
+              {
+                "id": "94c0eb012371b04079acc36cf269d9e74ab6b1d1434fd8736ccaf041e20037ea",
+                "name": "6-th century",
+                "value": "6"
+              },
+              {
+                "id": "e528d5705f6686b64ccf2616d60f8936ec429197d8f84f6f2157ec094f3e6642",
+                "name": "7-th century",
+                "value": "7"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "builder": { "name": "tripetto", "version": "3.10.3" }
+}

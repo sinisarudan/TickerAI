@@ -1,0 +1,57 @@
+{
+	"extends": "../../tsconfig.colabo.json",
+	"comments":{
+		"general": "Here are all comments, as JSON does't allow comments, and Angular/TS complains about unknown tsconfig properties",
+		"compilerOptions": {
+				"esModuleInterop": "Necessary for incompatible modules to import, like PubSub, socket.io",
+				"isolatedModules": "will guarantee that code can be transpiled per-file basis. It will not help in transpilation, but `tsc` over the whole project would notice problematic code",
+        "preserveSymlinks": "will keep symlinked colabo puzzles to keep the local context where they are linked, rather than where they exist",
+        "target": "we cannot go beyond `es2015` as `zone.js` cannot handle native async/await on es2016++"
+		},
+		"allowSyntheticDefaultImports": "cannot be false, as needed for `esModuleInterop` parameter, though we can omit it"
+	},
+  "compileOnSave": false,
+  "compilerOptions": {
+	"allowJs": false,
+    "baseUrl": "./",
+    // "baseUrl": "../../public/config",
+    "declaration": false,
+    "downlevelIteration": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    // "isolatedModules": true,
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    // "listFiles": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "outDir": "../../public/config",
+	// "outFile": "../../public/config/global.js",
+    "preserveConstEnums": true,
+    "preserveSymlinks": true,
+    "removeComments": false,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    // we cannot go beyond as `zone.js` cannot handle native async/await on es2016++
+    "target": "es2015",
+    "typeRoots": ["node_modules/@types"],
+    "types": []
+  },
+  "allowSyntheticDefaultImports": true,
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "disableTypeScriptVersionCheck": true,
+    "strictInjectionParameters": true,
+		"enableIvy": true,
+    "buildOptimizer": true,
+		// "aot": true
+  },
+  "include": [
+    "global.ts"
+  ]
+}

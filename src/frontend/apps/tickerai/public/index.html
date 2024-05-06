@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<!-- was at ticker.ai <meta name="viewport" content="width=device-width"> -->
+	<meta name="description" content="An AI-driven, centralized news platform covering the highest ranked articles from the largest financial markets">
+	<meta name="keywords" content="finance news, cryptonews, cryptocurrency, futures, inflation">
+	<title>TickerAI - A Mark Cuban Company - AI-based, Personalized Financial Market News Aggregator</title>
+
+	<!-- vuetify -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+
+	<!-- FAVICON -->
+	<link rel="apple-touch-icon" sizes="57x57" href="/img/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/img/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/img/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/img/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/img/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/img/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/img/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/img/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/img/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+	<link rel="manifest" href="/img/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link href="index.css" />
+	<style>
+		  body {
+			font-family: 'Montserrat', sans-serif;
+			color: black;
+		  }
+    </style>
+
+    <title><%= htmlWebpackPlugin.options.title %></title>
+	<base href="/">
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+	<!-- TradingView Widget BEGIN -->
+	<div class="tradingview-widget-container" style="width: 100%; height: 46px;">
+		<div class="tradingview-widget-container__widget"></div>
+		<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+		{
+			"symbols": [{
+				"proName": "FOREXCOM:SPXUSD",
+				"title": "S&P 500"
+			}, {
+				"proName": "FOREXCOM:NSXUSD",
+				"title": "US 100"
+			}, {
+				"proName": "FX_IDC:EURUSD",
+				"title": "EUR/USD"
+			}, {
+				"proName": "BITSTAMP:BTCUSD",
+				"title": "Bitcoin"
+			}, {
+				"proName": "BITSTAMP:ETHUSD",
+				"title": "Ethereum"
+			}, {
+				"description": "TESLA",
+				"proName": "NASDAQ:TSLA"
+			}, {
+				"description": "Amazon",
+				"proName": "NASDAQ:AMZN"
+			}, {
+				"description": "Google",
+				"proName": "NASDAQ:GOOG"
+			}, {
+				"description": "Apple",
+				"proName": "NASDAQ:AAPL"
+			}, {
+				"description": "Meta",
+				"proName": "NASDAQ:FB"
+			}, {
+				"description": "Netflix",
+				"proName": "NASDAQ:NFLX"
+			}, {
+				"description": "Crude Oil",
+				"proName": "TVC:USOIL"
+			}, {
+				"description": "US Dollar Index",
+				"proName": "INDEX:DXY"
+			}, {
+				"description": "US 10 Year Bond",
+				"proName": "TVC:US10Y"
+			}, {
+				"description": "US Inflation Rate",
+				"proName": "ECONOMICS:USIRYY"
+			}, {
+				"description": "US Interest Rate",
+				"proName": "ECONOMICS:USINTR"
+			}, {
+				"description": "US Unemployment Rate",
+				"proName": "FRED:UNRATE"
+			}, {
+				"description": "US GDP",
+				"proName": "FRED:GDP"
+			}, {
+				"description": "Microsoft ",
+				"proName": "NASDAQ:MSFT"
+			}, {
+				"description": "Nvidia",
+				"proName": "NASDAQ:NVDA"
+			}, {
+				"description": "United Health Group",
+				"proName": "NYSE:UNH"
+			}, {
+				"description": "Visa",
+				"proName": "NYSE:V"
+			}, {
+				"description": "Johnson & Johnson ",
+				"proName": "NYSE:JNJ"
+			}, {
+				"description": "Walmart",
+				"proName": "NYSE:WMT"
+			}, {
+				"description": "JP Morgan",
+				"proName": "NYSE:JPM"
+			}, {
+				"description": "Procter & Gamble",
+				"proName": "NYSE:PG"
+			}, {
+				"description": "Mastercard",
+				"proName": "NYSE:MA"
+			}, {
+				"description": "Exxon ",
+				"proName": "NYSE:XOM"
+			}, {
+				"description": "Bank of America",
+				"proName": "NYSE:BAC"
+			}, {
+				"description": "Home Depot",
+				"proName": "NYSE:HD"
+			}, {
+				"description": "Alibaba",
+				"proName": "NYSE:BABA"
+			}, {
+				"description": "Pfizer",
+				"proName": "NYSE:PFE"
+			}, {
+				"description": "Eli Lilly ",
+				"proName": "NYSE:LLY"
+			}, {
+				"description": "Coca-Cola ",
+				"proName": "NYSE:KO"
+			}, {
+				"description": "Costco",
+				"proName": "NASDAQ:COST"
+			}, {
+				"description": "Broadcom ",
+				"proName": "NASDAQ:AVGO"
+			}, {
+				"description": "Disney",
+				"proName": "NYSE:DIS"
+			}, {
+				"description": "Pepsi",
+				"proName": "NASDAQ:PEP"
+			}],
+			"showSymbolLogo": true,
+			"colorTheme": "dark",
+			"isTransparent": false,
+			"displayMode": "compact",
+			"locale": "en"
+		}
+		</script>
+	</div>
+	<!-- TradingView Widget END -->
+
+    <div id="app"></div>
+
+	<!-- import config before colabo-rima angular and app related libraries -->
+	<script src="<%= BASE_URL %>config/global.js?<%= htmlWebpackPlugin.options.version %>""></script>
+	<!-- <script src="<%= BASE_URL %>config/jobs/tickerai-zontik/tickerai-code/src/frontend/apps/tickerai/src/config/global.js?<%= htmlWebpackPlugin.options.version %>""></script> -->
+	<!-- import config before colabo-rima angular and app related libraries -->
+	<!-- <script src="<%= BASE_URL %>config/web_components__colabo_rima__global.js?<%= htmlWebpackPlugin.options.version %>""></script> -->
+
+	<!-- import all colabo-rima angular and app related libraries -->
+	<script src="<%= BASE_URL %>web-components/colabo-rima/runtime-es2015.js?<%= htmlWebpackPlugin.options.version %>"" type="module"></script>
+	<script src="<%= BASE_URL %>web-components/colabo-rima/runtime-es5.js?<%= htmlWebpackPlugin.options.version %>"" nomodule defer></script>
+	<script src="<%= BASE_URL %>web-components/colabo-rima/polyfills-es5.js?<%= htmlWebpackPlugin.options.version %>"" nomodule defer></script>
+	<script src="<%= BASE_URL %>web-components/colabo-rima/polyfills-es2015.js?<%= htmlWebpackPlugin.options.version %>"" type="module"></script>
+	<script src="<%= BASE_URL %>web-components/colabo-rima/styles-es2015.js?<%= htmlWebpackPlugin.options.version %>"" type="module"></script>
+	<script src="<%= BASE_URL %>web-components/colabo-rima/styles-es5.js?<%= htmlWebpackPlugin.options.version %>"" nomodule defer></script>
+	<script src="<%= BASE_URL %>web-components/colabo-rima/scripts.js?<%= htmlWebpackPlugin.options.version %>"" defer></script>
+	<script src="<%= BASE_URL %>web-components/colabo-rima/vendor-es2015.js?<%= htmlWebpackPlugin.options.version %>"" type="module"></script>
+	<script src="<%= BASE_URL %>web-components/colabo-rima/vendor-es5.js?<%= htmlWebpackPlugin.options.version %>"" nomodule defer></script>
+	<script src="<%= BASE_URL %>web-components/colabo-rima/main-es2015.js?<%= htmlWebpackPlugin.options.version %>"" type="module"></script>
+	<script src="<%= BASE_URL %>web-components/colabo-rima/main-es5.js?<%= htmlWebpackPlugin.options.version %>"" nomodule defer></script>
+	<script src="https://cdn.plot.ly/plotly-latest.min.js?<%= htmlWebpackPlugin.options.version %>""></script>
+	<!-- built files will be auto injected -->
+  </body>
+</html>

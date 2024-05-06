@@ -1,0 +1,62 @@
+{
+	"version": "1.0.0",
+	"schemaVersion": "1.0.0",
+	"name": "@tickerai-apps/f-news",
+	"description": "An app demonstrating Vue headless colabo components",
+	"variables": {
+		"VUE_PACKAGES_FOLDER": "{{{ENV:VUE_PATH}}}/{{{ENV:VUE_2}}}",
+		"VUE_BUILD_PACKAGES_FOLDER": "{{{ENV:VUE_PATH}}}/{{{ENV:VUE_2}}}"
+	},
+	"params": {
+		"project": {
+			"tags": ["vue"]
+		},
+		"dependencies": {
+			"provideDependencies": "link-path"
+		},
+		"environment": {
+			"os": "linux"
+		},
+		"sudo": {
+			"offer": false,
+			"install": false,
+			"build": false,
+			"symlinks": false
+		}
+	},
+	"puzzles": {
+		"dependencies": {
+			"@colabo-headless/f-components-vue": {},
+			"@colabo-knalledge/i-core": {},
+			"@colabo-dev/f-debug": {
+				"expandSubPaths": true,
+			},
+			"@colabo-utils/i-config": {},
+			"@colabo-knalledge/i-core-services": {
+				"expandSubPaths": true,
+			},
+			"@colabo-knalledge/i-schema": {},
+			"@colabo-knalledge/i-form": {},
+			"@colabo-flow/i-core": {},
+			"@colabo-rima/f-aaa": {
+				"expandSubPaths": true
+			},
+			"@colabo-knalledge/i-form-tripetto": {},
+			"@colabo-datatalks/f-form": {},
+			"@colabo-headless/f-core-frontend-vanilla": {
+				"aliasAs": "@colabo-headless/i-core",
+				"expandSubPaths": true
+			},
+			"@colabo-utils/i-notifications": {},
+			"@tickerai-news/i-core": {},
+			"@colabo-dialogue/f-core": {},
+			"@colabo-knalledge/f-core": {},
+			"@colabo-rima/f-core": {},
+			"@tickerai-news/i-core": {},
+			"@tickerai-news/f-store": {},
+		},
+		"offers": {}
+	},
+	"symlinks": [{}]
+
+}

@@ -1,0 +1,197 @@
+{
+	"showMockupNews":false,
+	"newsList":[
+	   {
+		  "title":"Why Rite Aid Is Sinking This Week",
+		  "text":"Author Bio Eric has been writing about stocks and finance since the mid-1990s, when he lived Prague, Czech Republic...",
+		  "id":"506bd9f172a103093eb50213",
+		  "time":"59 minutes ago",
+		  "hash":"6983e24fe10a698455bfaa2e29a1e18e|13eac047d21f0840407024af691dd661",
+		  "url":"https://www.fool.com/investing/2021/06/24/why-rite-aid-is-sinking-this-week/",
+		  "image":"https://dev.tickerai.io/legacy/index_files/1f606cfa6614e53ef78ca1679e1705b6.jpg",
+		  "tags":[
+			 "tag-stocks"
+		  ],
+		  "headingNews":true,
+		  "subfilter":"",
+		  "subfilters":[
+
+		  ]
+	   },
+	   {
+		  "title":"Bitcoin Hits $35k After Biden Reveals Infrastructure Deal, Paraguay Proposes Btc Bill",
+		  "text":"Bitcoin price traded above $35,000 as the stock market hit new highs and Paraguay aims to become the second country to adopt BTC as legal tender.. 301 Total views Total shares...",
+		  "id":"506bd9f172a103093eb50215",
+		  "time":"1 hour ago",
+		  "hash":"6983e24fe10a698455bfaa2e29a1e18e|13eac047d21f0840407024af691dd661",
+		  "url":"https://cointelegraph.com/news/bitcoin-hits-35k-after-biden-reveals-infrastructure-deal-paraguay-proposes-btc-bill",
+		  "image":"https://dev.tickerai.io/legacy/index_files/90c46308e8ce2c4a748e47dacb87112e.jpg",
+		  "tags":[
+			 "tag-crypto"
+		  ],
+		  "subfilter":"Bitcoin",
+		  "subfilters":[
+
+		  ]
+	   },
+	   {
+		  "title":"Ethereum price shoots up after Elon Musk reveals personal investment",
+		  "text":"The price of Ethereum (ether) has shot up after Elon Musk revealed that he personally invested in the cryptocurrency. The technology billionaire was speaking at The ₿ Word conference on Wednesday ...",
+		  "id":"506bd9f172a103093eb50212",
+		  "time":"1 hour ago",
+		  "hash":"6983e24fe10a698455bfaa2e29a1e18e|13eac047d21f0840407024af691dd661",
+		  "url":"https://www.independent.co.uk/life-style/gadgets-and-tech/ethereum-price-elon-musk-bitcoin-b1888181.html",
+		  "image":"https://static.independent.co.uk/2021/05/14/12/newFile-11.jpg?width=640&auto=webp&quality=75",
+		  "tags":[
+			 "tag-crypto"
+		  ],
+		  "subfilter":"Ethereum",
+		  "subfilters":[
+
+		  ]
+	   },
+	   {
+		  "title":"Eldercare, Affordable Housing Cut From Bipartisan Infrastructure Plan",
+		  "text":"Everything that is expected is that will not include comprehensive clean policy, and I am not willing to support throwing overboard, on call with the advocacy group Climate Power...",
+		  "id":"506bd9f172a103093eb50216",
+		  "time":"1 hour ago",
+		  "hash":"6983e24fe10a698455bfaa2e29a1e18e|13eac047d21f0840407024af691dd661",
+		  "url":"https://www.businessinsider.com/bipartisan-infrastructure-plan-eldercare-affordable-housing-american-jobs-plan-biden-2021-6?r=US&IR=T",
+		  "image":"https://i.insider.com/60d4d948df1db80018f3a123?width=1000&format=jpeg&auto=webp",
+		  "tags":[
+			 "tag-economy-and-business"
+		  ],
+		  "subfilter":"Consumer Prices",
+		  "subfilters":[
+
+		  ]
+	   },
+	   {
+		  "title":"Banks Can Withstand Severe Recession, Cleared For Payouts, Fed Says",
+		  "text":"The large banks in U.S. continue to have strong capital levels and could continue lending to households and businesses during recession, Federal Reserve said in its stress-test report Thursday...",
+		  "id":"506bd9f172a103093eb50210",
+		  "time":"1 hour ago",
+		  "hash":"6983e24fe10a698455bfaa2e29a1e18e|13eac047d21f0840407024af691dd661",
+		  "url":"https://www.thestreet.com/investing/fed-stress-tests-show-bank-capital-levels-strong",
+		  "image":"https://dev.tickerai.io/legacy/index_files/9531fc5a73f7146a598f7899ecfbee36.jpg",
+		  "tags":[
+			 "tag-stocks"
+		  ],
+		  "subfilter":"WMT",
+		  "subfilters":[
+
+		  ]
+	   },
+	   {
+		  "title":"Chainbytes Bringing Bitcoin Atms To El Salvador, Launching Manufacturing Hub – News Bitcoin News",
+		  "text":"The company plans to make El Salvador the hub of bitcoin ATMs for all of Americas...",
+		  "id":"506bd9f172a103093eb50217",
+		  "time":"2 hours ago",
+		  "hash":"6983e24fe10a698455bfaa2e29a1e18e|13eac047d21f0840407024af691dd661",
+		  "url":"https://news.bitcoin.com/chainbytes-bitcoin-atms-el-salvador-manufacturing-hub/",
+		  "image":"https://dev.tickerai.io/legacy/index_files/e06b846421a138507e836e6392c9fdd1.jpg",
+		  "tags":[
+			 "tag-crypto"
+		  ],
+		  "headingNews":true,
+		  "subfilter":"Bitcoin",
+		  "subfilters":[
+
+		  ]
+	   },
+	   {
+		  "title":"Biden Whispers Simple Solution To The Labor Shortage: 'pay Them More!'",
+		  "text":"The shortage may be delaying full labor-market recovery, journalists at White House there's easy solution... The president said May that the accelerating rate of wage growth was a feature and not bug of the economy. The Consumer Price Index, rose 0.6% May, beating the median estimate...",
+		  "id":"506bd9f172a103093eb50214",
+		  "time":"1 hour ago",
+		  "hash":"6983e24fe10a698455bfaa2e29a1e18e|13eac047d21f0840407024af691dd661",
+		  "url":"https://www.businessinsider.com/biden-labor-shortage-solution-pay-workers-more-job-market-hiring-2021-6?r=US&IR=T",
+		  "image":"https://i.insider.com/60d4d4ed5f52060018bbef17?width=1000&format=jpeg&auto=webp",
+		  "tags":[
+			 "tag-economy-and-business"
+		  ],
+		  "subfilter":"U.S. Labor Market",
+		  "subfilters":[
+
+		  ]
+	   },
+	   {
+		  "title":"Why Covid Vaccine Stocks Moderna, Novavax, And Biontech Soared This Week",
+		  "text":"Novavax received bump after Canadian official announced the completion of new manufacturing facility that will be used to produce COVID-19 vaccine...",
+		  "id":"506bd9f172a103093eb50218",
+		  "time":"1 hour ago",
+		  "hash":"6983e24fe10a698455bfaa2e29a1e18e|13eac047d21f0840407024af691dd661",
+		  "url":"https://www.fool.com/investing/2021/06/24/why-covid-vaccine-stocks-moderna-novavax-and-biont/,",
+		  "image":"https://dev.tickerai.io/legacy/index_files/dfde01c9243350cc70a8e671b028e96e.jpg",
+		  "tags":[
+			 "tag-economy-and-business"
+		  ],
+		  "subfilter":"Economic Sentiment",
+		  "subfilters":[
+
+		  ]
+	   },
+	   {
+		  "title":"Jpmorgan Survey: 49% Of Institutional Investors Agree Cryptocurrency Is 'rat Poison' As Warren Buffett Says Or A Fad – News Bitcoin News",
+		  "text":"Investment bank JPMorgan conducted survey of thousands of investors from 1,500 institutions and found that 49% of them think that cryptocurrency is either rat poison squared, the term used by Berkshire Hathaway CEO Warren Buffett to describe bitcoin, or temporary fad.. 49% of Investors Told JPMorgan...",
+		  "id":"506bd9f172a103093eb50219",
+		  "time":"2 hours ago",
+		  "hash":"6983e24fe10a698455bfaa2e29a1e18e|13eac047d21f0840407024af691dd661",
+		  "url":"https://news.bitcoin.com/jpmorgan-survey-institutional-investors-cryptocurrency-rat-poison-warren-buffett-fad/",
+		  "image":"https://dev.tickerai.io/legacy/index_files/bdfdfc2ce5ac0279dd37b6c36cbed7b5.jpg",
+		  "tags":[
+			 "tag-crypto"
+		  ],
+		  "headingNews":true,
+		  "subfilter":"Bitcoin",
+		  "subfilters":[
+
+		  ]
+	   },
+	   {
+		  "title":"Blackberry Rises As First Quarter Results Beat Expectations",
+		  "text":"BlackBerry  - Get Report rose late trade Thursday after the cybersecurity company and meme stock favorite posted first-quarter loss...",
+		  "id":"506bd9f172a103093eb50220",
+		  "time":"38 minutes ago",
+		  "hash":"6983e24fe10a698455bfaa2e29a1e18e|13eac047d21f0840407024af691dd661",
+		  "url":"https://www.thestreet.com/investing/blavkberry-rises-as-first-quarter-results-beat-expectations",
+		  "tags":[
+			 "tag-stocks"
+		  ],
+		  "subfilter":"BB",
+		  "subfilters":[
+
+		  ]
+	   },
+	   {
+		  "title":"Bis Proposed Capital Requirements For Cryptoassets: Vital Move, But They’re Too Low For Bitcoin",
+		  "text":"But BIS proposed treatment of what it's calling Group 2 cryptoassets, misses the biggest risk settlement risk for the banks handling the bitcoin...",
+		  "id":"506bd9f172a103093eb50211",
+		  "time":"1 hour ago",
+		  "hash":"6983e24fe10a698455bfaa2e29a1e18e|13eac047d21f0840407024af691dd661",
+		  "url":"https://www.forbes.com/sites/caitlinlong/2021/06/24/bis-proposed-capital-requirements-for-cryptoassets-vital-move-but-theyre-too-low-for-bitcoin/",
+		  "tags":[
+			 "tag-crypto"
+		  ],
+		  "subfilter":"Bitcoin",
+		  "subfilters":[
+
+		  ]
+	   },
+	   {
+		  "title":"Bipartisan Infrastructure Package Ditches Corporate Tax Rate Increase",
+		  "text":"We're going to have to do that through the budget process, and we need fair tax system to pay for it all, referring to the reconciliation process that will be needed to pass the infrastructure bill...",
+		  "id":"506bd9f172a103093eb50219",
+		  "time":"1 hour ago",
+		  "hash":"6983e24fe10a698455bfaa2e29a1e18e|13eac047d21f0840407024af691dd661",
+		  "url":"https://www.businessinsider.com/bipartisan-infrastructure-package-ditches-corporate-tax-rate-increase-2021-6?r=US&IR=T",
+		  "tags":[
+			 "tag-economy-and-business"
+		  ],
+		  "subfilter":"Corporate Profits",
+		  "subfilters":[
+
+		  ]
+	   }
+	]
+ }

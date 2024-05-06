@@ -1,0 +1,129 @@
+{
+	"version": "1.0.0",
+	"schemaVersion": "1.0.0",
+	"name": "b-tickerai-container",
+	"description": "Tickerai - backend - container",
+	"variables": {
+		"COLABO_FOLDER": "{{{ENV:COLABO_FOLDER}}}"
+	},
+	"params": {
+		"dependencies": {
+			"provideDependencies": "link-path"
+		},
+		"environment": {
+			"os": "linux"
+		},
+		"sudo": {
+			"offer": false,
+			"install": false,
+			"build": false,
+			"symlinks": false
+		}
+	},
+	"puzzles": {
+        "dependencies": {
+            "@colabo-knalledge/b-storage-mongo": {},
+            "@colabo-knalledge/b-core": {},
+			"@colabo-utils/i-verify": {},
+			"@colabo-knalledge/b-search": {},
+            "@colabo-knalledge/i-core": {},
+			"@colabo-knalledge/i-schema": {},
+            "@colabo-knalledge/i-talk": {},
+            "@colabo-knalledge/b-talk": {},
+            "@colabo-media/b-upload": {},
+            "@colabo-rima/b-aaa": {},
+            "@colabo-rima/i-email": {},
+            "@colabo-topichat/b-core": {},
+            "@colabo-topichat/b-knalledge": {},
+            "@colabo-topichat/b-persistency": {},
+            "@colabo-topichat/i-core": {},
+            "@colabo-topichat/b-talk": {},
+            "@colabo-utils/i-config": {},
+            "@colabo-flow/b-services": {},
+            "@colabo-flow/b-topichat": {},
+            "@colabo-flow/i-audit": {},
+            "@colabo-flow/b-audit": {},
+            "@colabo-flow/i-go": {},
+            "@colabo-flow/b-go": {},
+            "@colabo-flow/i-dataset": {},
+            "@colabo-flow/b-dataset": {},
+            "@colabo-flow/b-session": {},
+			"@colabo-utils/i-register": {}
+
+        },
+        "offers": {
+            "@colabo-knalledge/b-storage-mongo": {
+                "npm": "@colabo-knalledge/b-storage-mongo",
+                "path": "dev_puzzles/knalledge/storage-mongo"
+            },
+            "@colabo-knalledge/b-core": {
+                "npm": "@colabo-knalledge/b-core",
+                "path": "dev_puzzles/knalledge/core"
+            },
+            "@colabo-knalledge/b-search": {
+                "npm": "@colabo-knalledge/b-search",
+                "path": "dev_puzzles/knalledge/search"
+            },
+            "@colabo-knalledge/b-talk": {
+                "npm": "@colabo-knalledge/b-talk",
+                "path": "puzzles/knalledge/talk"
+            },
+            "@colabo-media/b-upload": {
+                "npm": "@colabo-media/b-upload",
+                "path": "dev_puzzles/media/upload"
+            },
+            "@colabo-rima/b-aaa": {
+                "npm": "@colabo-rima/b-aaa",
+                "path": "dev_puzzles/rima/aaa"
+            },
+            "@colabo-rima/i-email": {
+                "npm": "@colabo-rima/i-email",
+                "path": "puzzles/rima/email"
+            },
+            "@colabo-topichat/b-clients-orchestration": {
+                "npm": "@colabo-topichat/b-clients-orchestration",
+                "path": "dev_puzzles/topichat/clients-orchestration"
+            },
+            "@colabo-topichat/b-core": {
+                "npm": "@colabo-topichat/b-core",
+                "path": "dev_puzzles/topichat/core"
+            },
+            "@colabo-topichat/b-knalledge": {
+                "npm": "@colabo-topichat/b-knalledge",
+                "path": "dev_puzzles/topichat/knalledge"
+            },
+            "@colabo-topichat/b-persistency": {
+                "npm": "@colabo-topichat/b-persistency",
+                "path": "puzzles/topichat/persistency"
+            },
+            "@colabo-topichat/b-talk": {
+                "npm": "@colabo-topichat/b-talk",
+                "path": "dev_puzzles/topichat/talk"
+            },
+            "@colabo-flow/b-services": {
+                "npm": "@colabo-flow/b-services",
+                "path": "dev_puzzles/flow/services"
+            },
+            "@colabo-flow/b-topichat": {
+                "npm": "@colabo-flow/b-topichat",
+                "path": "dev_puzzles/flow/topichat"
+            },
+            "@colabo-flow/b-audit": {
+                "npm": "@colabo-flow/b-audit",
+                "path": "dev_puzzles/flow/audit"
+            },
+            "@colabo-flow/b-dataset": {
+                "npm": "@colabo-flow/b-dataset",
+                "path": "dev_puzzles/flow/dataset"
+            },
+            "@colabo-flow/b-go": {
+                "npm": "@colabo-flow/b-go",
+                "path": "dev_puzzles/flow/go"
+            },
+            "@colabo-flow/b-session": {
+                "npm": "@colabo-flow/b-session",
+                "path": "dev_puzzles/flow/session"
+            }
+        }
+    }
+}

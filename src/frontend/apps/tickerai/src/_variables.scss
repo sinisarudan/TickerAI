@@ -1,0 +1,45 @@
+$main-color: #333333; //black; //used to be: #211f4a;
+$main-color-dark: black;
+$light-main-color: lighten($main-color, 20%);
+$light-border-color: lighten($main-color, 80%);
+$bg-color: white;
+$border-radius: 50px; //used to be: 4px;
+$font-size: 14px;
+$highlight-color: #0ad1a2;
+$header-bg-color: #5677ac;
+$header-hlt-bg-color: lighten($header-bg-color, 20%);
+$nav-color: #211f4a;
+$bg-inactive: #c6cBe3;
+$mobile-desktop-threshold: 480px;
+
+//MARKETS-COLORS:
+$market-generic: gray;
+$market-stock: #00a000;
+$market-crypto: #c300c3;
+$market-economy: red;
+$market-fixed-income: pink;
+$market-comm-forex: orange;
+
+.market-GENERIC {
+	background: $market-stock !important;
+}
+
+.market-STOCKS {
+	background: $market-stock !important;
+}
+
+.market-CRYPTO {
+	background: $market-crypto !important;
+}
+
+.market-ECONOMY_BUSINESS {
+	background: $market-economy !important;
+}
+
+.market-FIXED_INCOME {
+	background: $market-fixed-income !important;
+}
+
+.market-COMMODITIES_FOREX {
+	background: $market-comm-forex !important;
+}

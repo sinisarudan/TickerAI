@@ -1,0 +1,76 @@
+{
+	"comments":{
+		"general": "Here are all comments, as JSON does't allow comments, and Angular/TS complains about unknown tsconfig properties",
+		"compilerOptions": {
+				"esModuleInterop": "Necessary for incompatible modules to import, like PubSub, socket.io",
+				"isolatedModules": "will guarantee that code can be transpiled per-file basis. It will not help in transpilation, but `tsc` over the whole project would notice problematic code",
+        "preserveSymlinks": "will keep symlinked colabo puzzles to keep the local context where they are linked, rather than where they exist",
+        "target": "we cannot go beyond `es2015` as `zone.js` cannot handle native async/await on es2016++"
+		},
+		"allowSyntheticDefaultImports": "cannot be false, as needed for `esModuleInterop` parameter, though we can omit it"
+	},
+	"extends": "./tsconfig.colabo.json",
+    "compilerOptions": {
+		"strict": true,
+        "allowJs": true,
+		"baseUrl": "./",
+        "emitDecoratorMetadata": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "lib": [
+            "es6",
+			"dom",
+        ],
+        "listFiles": false,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        // "outDir": "dist",
+        "preserveConstEnums": true,
+		"preserveSymlinks": true,
+		"resolveJsonModule": true,
+        "removeComments": false,
+		// "rootDir": "./",
+		// refers to `colabo/src`
+		// "rootDir": "../../../",
+        "sourceMap": true,
+        "target": "es6",
+    },
+	"allowSyntheticDefaultImports": true,
+	"types": [
+		"node",
+		"types/node.d.ts",
+		"jest",
+	],
+    "files": [
+        "index.ts"
+    ],
+    // "include": [
+	// 	"config",
+	// 	"../../../backend/dev_puzzles/flow/topichat/**/*",
+	// 	"../../../backend/dev_puzzles/flow/audit/**/*",
+	// 	"../../../backend/dev_puzzles/flow/services/**/*",
+	// 	"../../../backend/dev_puzzles/knalledge/storage-mongo/**/*",
+	// 	"../../../backend/dev_puzzles/knalledge/core/**/*",
+	// 	"../../../backend/dev_puzzles/knalledge/search/**/*",
+	// 	"../../../backend/dev_puzzles/media/upload/**/*",
+	// 	"../../../backend/dev_puzzles/rima/aaa/**/*",
+	// 	"../../../backend/dev_puzzles/topichat/clients-orchestration/**/*",
+	// 	"../../../backend/dev_puzzles/topichat/core/**/*",
+	// 	"../../../backend/dev_puzzles/topichat/knalledge/**/*",
+	// 	"../../../backend/dev_puzzles/topichat/talk/**/*",
+	// 	"../../../backend/dev_puzzles/flow/session/**/*",
+
+	// 	"../../../isomorphic/dev_puzzles/flow/audit/**/*",
+	// 	"../../../isomorphic/dev_puzzles/utils/config/**/*",
+	// 	"../../../isomorphic/puzzles/knalledge/core/**/*",
+	// 	"../../../isomorphic/puzzles/knalledge/schema/**/*",
+	// 	"../../../isomorphic/puzzles/topichat/core/**/*",
+    // ],
+    "exclude": [
+		// "**/*d.ts",
+		"**/*.test.ts",
+    ],
+    "compileOnSave": false
+}

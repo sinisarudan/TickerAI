@@ -1,0 +1,38 @@
+{
+    "name": "@tickerai-news/f-store",
+    "version": "0.0.1",
+    "description": "An isomorphic part of the core news service for TickerAI",
+    "private": false,
+    "publishConfig": {
+        "access": "public"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Cha-OS/colabo"
+    },
+    "scripts": {
+        "build": "tsc",
+        "test": "mocha --watch --watch-extensions ts  --reporter mocha-clearscreen-reporter -r ts-node/register -r tsconfig-paths/register tests/*.test.ts",
+        "test_single": "mocha --watch --watch-extensions ts --reporter mocha-clearscreen-reporter -r ts-node/register -r tsconfig-paths/register",
+        "test_single_no_clear": "mocha --watch --watch-extensions ts -r ts-node/register -r tsconfig-paths/register"
+    },
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "dependencies": {
+        "@types/jest": "^24.0.19",
+        "jest": "^26.6.3",
+        "ts-jest": "^26.5.5",
+        "typescript": "^4.3.5",
+        "@types/reflect-metadata": "^0.1.0",
+        "mocha-clearscreen-reporter": "^1.0.1",
+        "source-map-loader": "^3.0.0",
+        "ts-loader": "^9.2.6",
+        "webpack": "^5.64.2",
+        "webpack-cli": "^4.9.1"
+    },
+    "peerDependenciesLocal": {},
+    "devDependencies": {
+        "mocha-clearscreen-reporter": "^1.0.1"
+    }
+}
