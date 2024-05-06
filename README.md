@@ -2,6 +2,8 @@
 
 Codebase for the TickerAI.io platform
 
+**TickerAI** - A **Mark Cuban** Company - AI-based Financial Market News Aggregator; a proprietary code, shared to demonstrate Sinisa Rudan's (and his Cha-OS team) development
+
 The code is exemplary. For it to be fully operational external (including proprietary ones) packages are required.
 **Colabo.Space** (by Cha-OS.org) provides most of those packages, partially through proprietary **KnAllEdge** ecosystem, including:
 
